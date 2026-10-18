@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/c01_getting_started",
+    "crates/c02_ownership_borrowing",
+    "crates/c03_types_and_control_flow",
+    "crates/c04_structs_enums_patterns",
+    "crates/c05_traits_and_generics",
+    "crates/c06_error_handling",
+    "crates/c07_lifetimes",
+    "crates/c08_smart_pointers",
+    "crates/c09_iterators_closures",
+    "crates/c10_concurrency",
+    "crates/c11_async_tokio",
+    "crates/c12_unsafe_rust",
+    "crates/c13_testing_benchmarking",
+    "crates/c14_web_development",
+    "crates/c15_cli_and_tooling",
+    "crates/c16_best_practices",
+]
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.38", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+axum = "0.7"
+tower = { version = "0.5", features = ["util"] }
+tower-http = { version = "0.5", features = ["trace"] }
