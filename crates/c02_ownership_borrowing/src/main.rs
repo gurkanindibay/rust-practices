@@ -1,7 +1,7 @@
 //! Practice 02: Ownership & Borrowing
 //!
 //! A comprehensive showcase matching every section and concept in
-//! `programming-languages/rust/02-ownership-borrowing.md`:
+//! `programming-languages/rust/lessons/02-ownership-borrowing.md`:
 //!
 //! 1. Why Ownership & RAII (Scope exit, Drop trait)
 //! 2. Ownership Rules & Invariants
